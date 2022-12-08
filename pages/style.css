@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #191816;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #afb6c2;
+}
+body {
+    display: flex;
+    justify-content: space-between;
+}
+main {
+    background: #24221F;
+    display: flex;
+    align-items: center;
+}
+
+form {
+    background: #24221F;
+    position: absolute;
+    width: 730px;
+    height: 600px;
+    left: 100px;
+    top: 194px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loginheader {
+    position: absolute;
+    width: 334px;
+    height: 64px;
+    left: 193px;
+    top: 100px;
+    background-color: #24221F;
+
+}
+
+.loginheader img, a {
+    background-color: #24221F;
+    font-size: 16px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.loginheader strong {
+    background-color: #24221F;
+    font-size: 24px;
+    color: #d4ccb6;
+    text-shadow: black 0 2px;
+}
+
+.email {
+    background-color: #24221F;
+    position: absolute;
+    width: 335px;    
+    height: 73px;
+    left: 193px;
+    top: 190px;
+    font-size: 20px;
+}
+#img1:focus-within{
+    background-image: url(./images/mail-focus.svg);
+    background-repeat: no-repeat;
+}
+
+#img1 {
+    background-image:  url(./images/mail.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3rem;
+    border: solid 2px lightgray;
+    border-radius: 4px;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    padding: 30px;
+}
+
+.password {
+    background-color: #24221F;
+    position: absolute;
+    width: 335px;
+    height: 73px;
+    left: 193px;
+    top: 293px;
+    font-size: 20px;
+}
+#img2:focus-within{
+    background-image: url(./images/lock-focus.svg);
+    background-repeat: no-repeat;
+}
+
+#img2 {
+    background-image: url(./images/lock.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: rem;
+    border: solid 2px lightgray;
+    border-radius: 4px;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.remember {
+    background-color: #24221F;
+    position: absolute;
+    width: 126px;
+    height: 20px;
+    left: 193px;
+    top: 400px;
+    display: flex; 
+    flex-direction: row;
+    padding: 4px; 
+    font-size: 14px;
+}
+
+.remember a {
+    background-color: #24221F;
+    display: flex;
+    padding-left: 25px;
+    
+}
+
+input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+}
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+input[type=checkbox]:checked:before {
+    content: "";
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background-color:#FFD400;
+}
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    width: 5px;
+}
+
+.passwordforgot {
+    background-color: #24221F;
+    text-decoration: none;
+    position: absolute;
+    width: 153px;
+    height: 21px;
+    left: 374px;
+    top: 408px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: rosybrown;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    background-color: rosybrown;
+    color: #24221F;
+    position: absolute;
+    width: 334px;
+    height: 51px;
+    left: 193px;
+    top: 450px; 
+    border: solid 2px rosybrown; 
+    border-radius: 10px;  
+}
+
+.accountCreate {
+    position: absolute;
+    width: 235px;
+    height: 21px;
+    left: 241px;
+    top: 511px;    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: rosybrown;
+}
+
+aside {
+    position:relative;
+    bottom: 100%;
+    top: 100px;
+}
